@@ -395,6 +395,12 @@ table {
 	overflow:hidden;
 	font-size:0.75em;
 }
+
+.home-button {
+	float:right;
+	padding:6em 2em 0 2.5em;
+}
+
 .icon-list {
 	float:right;
 	padding:2.5em 2em 0 6em;
@@ -579,6 +585,7 @@ h1.arrow span {
 /* ==========================================================================About========================================================================== */
 .about-image {
 	height:400px;
+	border: 1px solid var(--main-color);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -609,6 +616,7 @@ h1.arrow span {
 }
 .about-text {
 	padding:20px 50px 25px 50px;
+	border: 1px solid var(--main-color);
 }
 .about-text h1 {
 	text-transform:uppercase;
@@ -1116,6 +1124,10 @@ ul.slides li {
 .delay-1s {
 	animation-delay:1s;
 	-webkit-animation-delay:1s;
+}
+.delay-15s {
+	animation-delay:1.5s;
+	-webkit-animation-delay:1.5s;
 }
 .wp3 {
 	background:url('../img/iphone-bg.png') no-repeat center center;
