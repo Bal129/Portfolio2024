@@ -33,28 +33,74 @@
   
   <body id="top">
 
-    <header id="home" class="show-menu">
-        <!-- Menu -->
-        <div class="container-fluid">
-            <div class="row">
-              <div class="menu-wrap">
-                <nav class="menu">
-                  <!-- Menu Links -->
-                  <div class="icon-list"> 
-                    <a href="../index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-                    <a href="web.html"><i class="fa fa-fw fa-code"></i><span>Web Dev</span></a>
-                    <a href="game.html"><i class="fa fa-fw fa-gamepad"></i><span>Game Dev</span></a>
-                    <a href="software.html"><i class="fa fa-fw fa-desktop"></i><span>Software Dev</span></a>
-                    <a href="index.html#arts"><i class="fa fa-fw fa-paint-brush"></i><span>Digital Arts</span></a>
-                    <a href="../index.html#contacts"><i class="fa fa-fw fa-envelope-o"></i><span>Contacts</span></a>
-                  </div>
-                </nav>
-              </div>
-              <button class="menu-button" id="open-button"></button><!-- menu button -->
+    <!-- =======================================
+         HEADER SECTION START
+    ============================================ -->
+
+    <header id="home">
+      <!-- Menu -->
+      <div class="container-fluid">
+        <!-- <div class="row"> -->
+          <div class="custom-menu-wrap">
+            <h2>
+              <a href="../index.html#home"><span>Home</span></a>
+            </h2><!-- menu button -->
+          </div>
+        <!-- </div> -->
+      </div>
+      <section class="text-center section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Web Development Projects</h1>
             </div>
+          </div>
         </div>
+      </section>
     </header>
 
+    <!-- =======================================
+         HEADER SECTION END 
+    ============================================ -->
+
+    <!-- =======================================
+         OVERVIEW SECTION START
+    ============================================ -->
+
+    <section class="text-center section-padding">
+      <!-- Contacts Container -->
+      <div class="container">
+        <!-- Row 1 -->
+        <div class="row">
+          <!-- movie -->
+          <div class="col-md-6">
+            <a href="web.html#movie">
+              <div class="dark-box box-hover">
+                <h2>Movie Rating Website</h2>
+                <h3>No frameworks</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+          <!-- data -->
+          <div class="col-md-6">
+            <a href="web.html#data">
+              <div class="dark-box box-hover">
+                <h2>Data Entry Website</h2>
+                <h3>Bootstrap</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <br/>
+      </div>
+    </section>
+
+    <!-- =======================================
+         OVERVIEW SECTION END
+    ============================================ -->
+    
     <!-- =======================================
          WEB SECTION START
     ============================================ -->
@@ -67,7 +113,7 @@
         ==================== -->
 
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;">
+        <div class="row" style="padding-top:10em;" id="movie">
             <div class="col-md-12">
                 <h1 class="arrow">Movie Rating Website</h1>
             </div>
@@ -86,42 +132,46 @@
               There is an admin role that can moderate the site.
               I am in charge of the movie profile and front-end coding.
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
           </div>
         </div>
         <!-- Row 2 -->
         <div class="row color-bg">
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../media/Web_MovieRating/Page_Login.png)"></div>
-          </div>
-          <div class="col-md-4 nopadding features-intro-img">
+          <div class="col-md-6 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../media/Web_MovieRating/Page_Profile1.png)"></div>
           </div>
-          <div class="col-md-4 nopadding features-intro-img">
+          <div class="col-md-6 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../media/Web_MovieRating/Page_Profile2.png)"></div>
           </div>
         </div>
         <!-- Row 3 -->
         <div class="row color-bg">
-          <div class="col-md-4 nopadding features-intro-img">
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Web_MovieRating/Page_Login.png)"></div>
+          </div>
+          <div class="col-md-6 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../media/Web_MovieRating/Page_ShowTime.png)"></div>
           </div>
-          <div class="col-md-4 nopadding features-intro-img">
+        </div>
+        <!-- Row 4 -->
+        <div class="row color-bg">
+          <div class="col-md-6 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../media/Web_MovieRating/Page_UpdatePrivilege.png)"></div>
           </div>
-          <div class="col-md-4 nopadding features-intro-img">
+          <div class="col-md-6 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../media/Web_MovieRating/Page_BestOfList1.png)"></div>
           </div>
         </div>
 
         </br> <!-- break between project -->
+        <a href="web.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
 
         <!-- ===============
         WEB 2 - Data Entry 
         ==================== -->
 
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;">
+        <div class="row" style="padding-top:10em;" id="data">
             <div class="col-md-12">
                 <h1 class="arrow">Data Entry Website</h1>
             </div>
@@ -138,36 +188,42 @@
               This is my internship works at <b>Pro Office Technology Sdn. Bhd.</b>
               I am in charge of everything shown except the design which was taken from a free template.
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
           </div>
           <div class="col-md-6 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about1.png)"></div>
+            <div class="about-image" style="background-image:url(../media/Web_DataEntry/login.PNG)"></div>
           </div>
         </div>
         <!-- Row 2 -->
         <div class="row color-bg">
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about3.png)"></div>
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Web_DataEntry/forms_table.PNG)"></div>
           </div>
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about2.png)"></div>
-          </div>
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about1.png)"></div>
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Web_DataEntry/forms_table_select_pdf.PNG)"></div>
           </div>
         </div>
         <!-- Row 3 -->
         <div class="row color-bg">
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about2.png)"></div>
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Web_DataEntry/properties_table_1.PNG)"></div>
           </div>
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about1.png)"></div>
-          </div>
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about3.png)"></div>
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Web_DataEntry/properties_table_2.PNG)"></div>
           </div>
         </div>
+        <!-- Row 4 -->
+        <div class="row color-bg">
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Web_DataEntry/pdfViewer_and_forms.PNG)"></div>
+          </div>
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Web_DataEntry/properties_table_edit.PNG)"></div>
+          </div>
+        </div>
+
+        </br> <!-- break between project -->
+        <a href="web.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
 
       </div>
     </section>

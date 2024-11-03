@@ -36,33 +36,114 @@
     <!-- =======================================
          HEADER SECTION START
     ============================================ -->
-    
+
     <header id="home">
       <!-- Menu -->
       <div class="container-fluid">
-        <div class="row">
-          <div class="menu-wrap">
-            <nav class="menu">
-              <!-- Menu Links -->
-              <div class="icon-list"> 
-                <a href="../index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-                <a href="web.html"><i class="fa fa-fw fa-code"></i><span>Web Dev</span></a>
-                <a href="game.html"><i class="fa fa-fw fa-gamepad"></i><span>Game Dev</span></a>
-                <a href="software.html"><i class="fa fa-fw fa-desktop"></i><span>Software Dev</span></a>
-                <a href="index.html#arts"><i class="fa fa-fw fa-paint-brush"></i><span>Digital Arts</span></a>
-                <a href="../index.html#contacts"><i class="fa fa-fw fa-envelope-o"></i><span>Contacts</span></a>
-              </div>
-            </nav>
+        <!-- <div class="row"> -->
+          <div class="custom-menu-wrap">
+            <h2>
+              <a href="../index.html#home"><span>Home</span></a>
+            </h2><!-- menu button -->
           </div>
-          <button class="menu-button" id="open-button"></button><!-- menu button -->
-        </div>
+        <!-- </div> -->
       </div>
+      <section class="text-center section-padding" id="game">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Game Development Projects</h1>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
 
     <!-- =======================================
          HEADER SECTION END 
     ============================================ -->
 		
+    <!-- =======================================
+         OVERVIEW SECTION START
+    ============================================ -->
+
+    <section class="text-center section-padding">
+      <!-- Contacts Container -->
+      <div class="container">
+        <!-- Row 1 -->
+        <div class="row">
+          <!-- gyroscope -->
+          <div class="col-md-4">
+            <a href="game.html#gyroscope">
+              <div class="dark-box box-hover">
+                <h2>RPG Battle Systems Using Gyroscope</h2>
+                <h3>Unity | 3D</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+          <!-- crimson -->
+          <div class="col-md-4">
+            <a href="game.html#crimson">
+              <div class="dark-box box-hover">
+                <h2>Crimson World</h2>
+                <h3>Phaser | 2D</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+          <!-- blocks -->
+          <div class="col-md-4">
+            <a href="game.html#blocks">
+              <div class="dark-box box-hover">
+                <h2>Blocks: MMU</h2>
+                <h3>Unreal Engine 5 | 3D</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <br/>
+        <!-- Row 2 -->
+        <div class="row">
+          <!-- nakfit -->
+          <div class="col-md-4">
+            <a href="game.html#nakfit">
+              <div class="dark-box box-hover">
+                <h2>Nak Fit @ Noizucon</h2>
+                <h3>Unity | 2D</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+          <!-- aerial -->
+          <div class="col-md-4">
+            <a href="game.html#aerial">
+              <div class="dark-box box-hover">
+                <h2>Aerial Gladiators</h2>
+                <h3>Unity | 3D</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+          <!-- sinister -->
+          <div class="col-md-4">
+            <a href="game.html#sinister">
+              <div class="dark-box box-hover">
+                <h2>Project Sinister</h2>
+                <h3>Unity | 2D</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================
+         OVERVIEW SECTION END
+    ============================================ -->
+
     <!-- =======================================
          GAME SECTION START
     ============================================ -->
@@ -75,7 +156,7 @@
         ==================== -->
 
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;">
+        <div class="row" style="padding-top:10em;" id="gyroscope">
           <div class="col-md-12">
             <h1 class="arrow">RPG Battle Systems Using Gyroscope (Unity|3D)</h1>
           </div>
@@ -89,7 +170,7 @@
               Players control in-game character to defeat enemies.
               This is my Degree Final Year Project solo project.
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
           </div>
         </div>
         <!-- Row 2 -->
@@ -124,13 +205,14 @@
         </div>
 
         </br> <!-- break between project -->
+        <a href="game.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
 
         <!-- ===============
         GAME 2 - Crimson World 
         ==================== -->
 
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;">
+        <div class="row" style="padding-top:10em;" id="crimson">
           <div class="col-md-12">
             <h1 class="arrow">Crimson World (Phaser|2D)</h1>
           </div>
@@ -145,7 +227,7 @@
               This project focuses on the utilisation of game design concepts.
               This is a solo project.
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
           </div>
           <div class="col-md-6 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../media/Game_CrimsonWorld/MainScreen.png)"></div>
@@ -162,13 +244,14 @@
         </div>
 
         </br> <!-- break between project -->
+        <a href="game.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
 
         <!-- ===============
         GAME 3 - Blocks: MMU 
         ==================== -->
 
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;">
+        <div class="row" style="padding-top:10em;" id="blocks">
           <div class="col-md-12">
             <h1 class="arrow">Blocks: MMU (UnrealEngine5|3D)</h1>
           </div>
@@ -177,7 +260,7 @@
         <!-- Row 1 -->
         <div class="row color-bg">
           <div class="col-md-6 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about1.png)"></div>
+            <div class="about-image" style="background-image:url(../media/Game_Blocks/ss_menu.png)"></div>
           </div>
           <div class="col-md-6 about-text">
             <p>
@@ -187,42 +270,46 @@
               This is a project of three.
               I contributed to the level design, puzzle system and merging all source codes. 
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
           </div>
         </div>
         <!-- Row 2 -->
         <div class="row color-bg">
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about3.png)"></div>
-          </div>
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about2.png)"></div>
-          </div>
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about1.png)"></div>
+          <div class="col-md-12 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Game_Blocks/ss_game.png)"></div>
           </div>
         </div>
-        <!-- Row 2 -->
+        <!-- Row 3 -->
+        <div class="row color-bg">
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Game_Blocks/ss_mapdesign.png)"></div>
+          </div>
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Game_Blocks/ss_progress.png)"></div>
+          </div>
+        </div>
+        <!-- Row 4 -->
         <div class="row color-bg">
           <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about3.png)"></div>
+            <div class="about-image" style="background-image:url(../media/Game_Blocks/ss_gamewin.png)"></div>
           </div>
           <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about2.png)"></div>
+            <div class="about-image" style="background-image:url(../media/Game_Blocks/ss_gameover.png)"></div>
           </div>
           <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about1.png)"></div>
+            <div class="about-image" style="background-image:url(../media/Game_Blocks/ss_pause.png)"></div>
           </div>
         </div>
       
         </br> <!-- break between project -->
+        <a href="game.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
         
         <!-- ===============
         GAME 4 - Nak Fit @ Noizucon 
         ==================== -->
 
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;">
+        <div class="row" style="padding-top:10em;" id="nakfit">
           <div class="col-md-12">
             <h1 class="arrow">Nak Fit @ Noizucon (Unity|2D)</h1>
           </div>
@@ -238,33 +325,34 @@
               This is a project of four.
               I contributed to the game design and development.
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
           </div>
           <div class="col-md-6 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about1.png)"></div>
+            <div class="about-image" style="background-image:url(../media/Game_Nakfit/SS_Test.jpg)"></div>
           </div>
         </div>
         <!-- Row 2 -->
         <div class="row color-bg">
           <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about3.png)"></div>
+            <div class="about-image" style="background-image:url(../media/Game_Nakfit/SS_Menu.png)"></div>
           </div>
           <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about2.png)"></div>
+            <div class="about-image" style="background-image:url(../media/Game_Nakfit/SS_Game1.png)"></div>
           </div>
           <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about1.png)"></div>
+            <div class="about-image" style="background-image:url(../media/Game_Nakfit/SS_End.png)"></div>
           </div>
         </div>
 
         </br> <!-- break between project -->
+        <a href="game.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
 
         <!-- ===============
         GAME 5 - Aerial Gladiators
         ==================== -->
 
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;">
+        <div class="row" style="padding-top:10em;" id="aerial">
           <div class="col-md-12">
             <h1 class="arrow">Aerial Gladiators (Unity|3D)</h1>
           </div>
@@ -272,38 +360,39 @@
         
         <!-- Row 1 -->
         <div class="row color-bg">
-          <div class="col-md-6 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about1.png)"></div>
-          </div>
-          <div class="col-md-6 about-text">
+          <div class="col-md-12 about-text">
             <p>
               A mobile game where players control a ball by swiping the screen to push other balls (enemies) off the platform.
               This project focuses on addictive hyper casual design.
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
           </div>
         </div>
         <!-- Row 2 -->
         <div class="row color-bg">
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about3.png)"></div>
+          <div class="col-md-3 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Game_AerialGladiators/SS_Menu.jpg);height:650px;"></div>
           </div>
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about2.png)"></div>
+          <div class="col-md-3 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Game_AerialGladiators/SS_Game.jpg);height:650px;"></div>
           </div>
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../img/about1.png)"></div>
+          <div class="col-md-3 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Game_AerialGladiators/SS_Win.jpg);height:650px;"></div>
+          </div>
+          <div class="col-md-3 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Game_AerialGladiators/SS_Lose.jpg);height:650px;"></div>
           </div>
         </div>
 
         </br> <!-- break between project -->
+        <a href="game.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
 
         <!-- ===============
         GAME 6 - Project Sinister
         ==================== -->
 
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;">
+        <div class="row" style="padding-top:10em;" id="sinister">
           <div class="col-md-12">
             <h1 class="arrow">Project Sinister (Unity|2D)</h1>
           </div>
@@ -321,7 +410,7 @@
               This is a project of two.
               I contributed to the enemy AI and level design.
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
           </div>
           <div class="col-md-4 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../img/about1.png)"></div>
@@ -341,6 +430,9 @@
         </div>
 
       </div>
+      
+      <br/>
+      <a href="game.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
     </section>
 
     <!-- =======================================

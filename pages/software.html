@@ -40,27 +40,75 @@
     <header id="home">
       <!-- Menu -->
       <div class="container-fluid">
-        <div class="row">
-          <div class="menu-wrap">
-            <nav class="menu">
-              <!-- Menu Links -->
-              <div class="icon-list"> 
-                <a href="../index.html#home"><i class="fa fa-fw fa-home"></i><span>Home</span></a>
-                <a href="web.html"><i class="fa fa-fw fa-code"></i><span>Web Dev</span></a>
-                <a href="game.html"><i class="fa fa-fw fa-gamepad"></i><span>Game Dev</span></a>
-                <a href="software.html"><i class="fa fa-fw fa-desktop"></i><span>Software Dev</span></a>
-                <a href="index.html#arts"><i class="fa fa-fw fa-paint-brush"></i><span>Digital Arts</span></a>
-                <a href="../index.html#contacts"><i class="fa fa-fw fa-envelope-o"></i><span>Contacts</span></a>
-              </div>
-            </nav>
+        <!-- <div class="row"> -->
+          <div class="custom-menu-wrap">
+            <h2>
+              <a href="../index.html#home"><span>Home</span></a>
+            </h2><!-- menu button -->
           </div>
-          <button class="menu-button" id="open-button"></button><!-- menu button -->
-        </div>
+        <!-- </div> -->
       </div>
+      <section class="text-center section-padding" id="game">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Software Development Projects</h1>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
 
     <!-- =======================================
          HEADER SECTION END 
+    ============================================ -->
+
+    <!-- =======================================
+         OVERVIEW SECTION START
+    ============================================ -->
+
+    <section class="text-center section-padding">
+      <!-- Contacts Container -->
+      <div class="container">
+        <!-- Row 1 -->
+        <div class="row">
+          <!-- restaurant -->
+          <div class="col-md-4">
+            <a href="software.html#restaurant">
+              <div class="dark-box box-hover">
+                <h2>Restaurant Menu System</h2>
+                <h3>?? | ??</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+          <!-- motor -->
+          <div class="col-md-4">
+            <a href="software.html#motor">
+              <div class="dark-box box-hover">
+                <h2>Motor Driving School System</h2>
+                <h3>?? | ??</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+          <!-- vaccination -->
+          <div class="col-md-4">
+            <a href="software.html#vaccination">
+              <div class="dark-box box-hover">
+                <h2>Vaccination System</h2>
+                <h3>?? | ??</h3>
+                <p>Go to Project</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <br/>
+      </div>
+    </section>
+
+    <!-- =======================================
+         OVERVIEW SECTION END
     ============================================ -->
 
     <!-- =======================================
@@ -75,7 +123,7 @@
         ==================== -->
         
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;" >
+        <div class="row" style="padding-top:10em;" id="restaurant">
           <div class="col-md-12">
             <h1 class="arrow">Restaurant Menu System</h1>
           </div>
@@ -83,36 +131,37 @@
 
         <!-- Row 1 -->
         <div class="row color-bg">
-          <div class="col-md-12 about-text">
+          <div class="col-md-6 about-text">
             <p>
               A simple menu system for a restaurant.
               Users can add their items, discounts and pay.
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
+          </div>
+          <div class="col-md-6 nopadding features-intro-img">
+            <div class="about-image" style="background-image:url(../media/Software_RestaurantMenuSystem/Feature_Profile.png)"></div>
+            <!-- <video src="media/Software_Restaurant Menu System/VideoSummary.mp4"></video> -->
           </div>
         </div>
         <!-- Row 2 -->
         <div class="row color-bg">
-          <div class="col-md-4 nopadding features-intro-img">
-            <div class="about-image" style="background-image:url(../media/Software_RestaurantMenuSystem/Feature_Profile.png)"></div>
-            <!-- <video src="media/Software_Restaurant Menu System/VideoSummary.mp4"></video> -->
-          </div>
-          <div class="col-md-4 nopadding features-intro-img">
+          <div class="col-md-6 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../media/Software_RestaurantMenuSystem/Feature_Menu.png)"></div>
           </div>
-          <div class="col-md-4 nopadding features-intro-img">
+          <div class="col-md-6 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../media/Software_RestaurantMenuSystem/Feature_Cart.png)"></div>
           </div>
         </div>
 
         </br> <!-- break between project -->
+        <a href="software.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
 
         <!-- ===============
         SOFT 2 - Motor Driving School System 
         ==================== -->
 
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;">
+        <div class="row" style="padding-top:10em;" id="motor">
           <div class="col-md-12">
             <h1 class="arrow">Motor Driving School System</h1>
           </div>
@@ -126,7 +175,7 @@
               Tutors can set availability which then the students can pick to train.
               At the same time, admin can view session histories.
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
           </div>
           <div class="col-md-4 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../media/Software_DrivingSchoolSystem/Admin_ShowTutorClassesReports.PNG)"></div>
@@ -158,13 +207,14 @@
         </div>
 
         </br> <!-- break between project -->
+        <a href="software.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
         
         <!-- ===================
         SOFT 3 - Vaccination System
         ==================== -->
 
         <!-- Headline -->
-        <div class="row" style="padding-top:10em;">
+        <div class="row" style="padding-top:10em;" id="vaccination">
           <div class="col-md-12">
             <h1 class="arrow">Vaccination System</h1>
           </div>
@@ -178,12 +228,15 @@
               Individuals can view personal details and appointment date.
               Vaccination centers can set appointments while officers can allocate vaccines to centers.
             </p><br>
-            <a href="index.html#team" class="weight-outline-btn">Check on GitHub</a>
+            <a href="index.html#team" class="outline-btn">Check on GitHub</a>
           </div>
           <div class="col-md-8 nopadding features-intro-img">
             <div class="about-image" style="background-image:url(../img/about3.png)"></div>
           </div>
         </div>
+
+        </br> <!-- break between project -->
+        <a href="software.html#home" class="up-btn"><i class="fa fa-chevron-up"></i><p>To Top</p></a>
 
       </div>
     </section>
